@@ -1,5 +1,6 @@
 {
     "homepage": "https://docs.microsoft.com/zh-cn/sysinternals/downloads/pstools",
+    "description": "The Windows NT and Windows 2000 Resource Kits come with a number of command line tools that help you administer your Windows NT/2K systems",
     "version": "2.4.5",
     "url": "https://download.sysinternals.com/files/PSTools.zip",
     "bin": [

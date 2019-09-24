@@ -1,0 +1,24 @@
+{
+  "homepage": "https://github.com/pxb1988/dex2jar",
+  "description": "Tools to work with android .dex and java .class files",
+  "version": "2.0",
+  "url": "https://github.com/pxb1988/dex2jar/releases/download/2.0/dex-tools-2.0.zip",
+  "bin": [
+    "d2j-std-apk",
+    "d2j-smali",
+    "d2j-jasmin2jar",
+    "d2j-jar2jasmin",
+    "d2j-jar2dex",
+    "d2j-dex-recompute-checksum",
+    "d2j-dex2smali",
+    "d2j-dex2jar",
+    "d2j-baksmali",
+    "d2j_invoke"
+  ],
+  "suggest": {
+    "JDK": [
+      "java/oraclejdk",
+      "java/openjdk"
+    ]
+  },
+}

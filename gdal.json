@@ -1,0 +1,29 @@
+{
+  "homepage": "https://www.gisinternals.com",
+  "description": "The build system is maintained and developed by Tamas Szekeres.",
+  "version": "3.0.4",
+  "url": "http://download.gisinternals.com/sdk/downloads/release-1911-x64-gdal-3-0-4-mapserver-7-4-3.zip",
+  "hash": "a118164ccdb368dab7c64b555f135ebc66b38b8aac49b1a656e218dfa094abdf",
+  "env_add_path": [
+    "bin",
+    "bin\\gdal\\python\\osgeo",
+    "bin\\proj6\\apps",
+    "bin\\gdal\\apps",
+    "bin\\ms\\apps",
+    "bin\\gdal\\csharp",
+    "bin\\ms\\csharp"
+  ],
+  "env_set": {
+    "GDAL_DATA": "$dir\\bin\\gdal-data",
+    "GDAL_DRIVER_PATH": "$dir\\bin\\gdal\\plugins",
+    "PYTHONPATH": "$dir\\bin\\gdal\\python;$dir\\bin\\ms\\python",
+    "PROJ_LIB": "$dir\\bin\\proj6\\share"
+  },
+  "post_install": [
+    "Move-Item \"$dir\\bin\\gdal\\plugins\\ogr_OCI.dll\" \"$dir\\bin\\gdal\\plugins-optional\\ogr_OCI.dll\"",
+    "Move-Item \"$dir\\bin\\gdal\\plugins\\gdal_GEOR.dll\" \"$dir\\bin\\gdal\\plugins-optional\\gdal_GEOR.dll\""
+  ],
+  "suggest": {
+    "vcredist": "extras/vcredist2017"
+  }
+}

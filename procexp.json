@@ -1,0 +1,7 @@
+{
+  "homepage": "https://docs.microsoft.com/zh-cn/sysinternals/downloads/process-explorer",
+  "description": "Process Explorer shows you information about which handles and DLLs processes have opened or loaded.",
+  "version": "16.32",
+  "url": "https://download.sysinternals.com/files/ProcessExplorer.zip",
+  "bin": ["procexp.exe", "procexp64.exe"]
+}

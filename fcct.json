@@ -1,0 +1,13 @@
+{
+  "homepage": "https://github.com/coreos/fcct",
+  "description": "The Fedora CoreOS Config Transpiler (FCCT) translates human readable Fedora CoreOS Configs (FCCs) into machine readable Ignition Configs.",
+  "version": "v0.6.0",
+  "url": "https://github.com/coreos/fcct/releases/download/v0.6.0/fcct-x86_64-pc-windows-gnu.exe#/fcct.exe",
+  "checkver": {
+    "github": "https://github.com/coreos/fcct"
+  },
+  "autoupdate": {
+    "url": "https://github.com/coreos/fcct/releases/download/$version/fcct-x86_64-pc-windows-gnu.exe#/fcct.exe"
+  },
+  "bin": "fcct.exe"
+}

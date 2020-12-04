@@ -1,0 +1,18 @@
+{
+  "version": "2.64.3",
+  "description": "pyenv is a great tool. We have ported it to Windows. We need your thoughts to improve this library and your feedback helps to grow.",
+  "homepage": "https://github.com/pyenv-win/pyenv-win",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/pyenv-win/pyenv-win/archive/master.zip",
+      "hash": "0800ae72bb8f9934c5315e69eff304213bff47618c98be8655fbdb34f17e74ba"
+    }
+  },
+  "extract_dir": "pyenv-win-master",
+  "env_set": {
+    "PYENV": "$dir\\pyenv-win",
+    "PYENV_HOME": "$dir\\pyenv-win"
+  },
+  "env_add_path": ["pyenv-win\\bin", "pyenv-win\\shims"]
+}
